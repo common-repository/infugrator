@@ -1,0 +1,298 @@
+.ifg-success,
+.ifg-error,
+.ifg-warning{
+    padding: 15px;
+    border-left: 4px solid #ffba00;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 20px 20px 0 2px;
+}
+
+.ifg-error{border-left-color: #dc3232;}
+.ifg-success{border-left-color: #46b450;}
+
+
+.ifg-warning-msg{
+    padding: 10px;
+    padding: 10px;
+    background-color: #f1f9ff;
+    border: 1px solid #c8dff3;
+}
+    .ifg-warning-msg p{
+        margin: 0 0 7px;
+    }
+    .ifg-warning-msg p:last-child{
+        margin-bottom: 0;
+    }
+
+
+.loading{
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu.toplevel_page_infugrator{
+    background: #79BE37;
+}
+
+.wp-color-result{
+    height: auto;
+}
+
+
+
+.header{
+    /*background: url(../images/inf-logo.png) left center no-repeat;*/
+    /*padding-left: 90px;*/
+    margin: 30px 0;
+}
+
+    .header__title{
+        margin: 0 0 10px;
+        font-size: 40px;
+        line-height: 1.4em;
+        display: inline-block;
+        position: relative;
+    }
+        .ifg-plugin-version{
+            background: #79BE37;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+    .header__msg {
+        font-size: 18px;
+        font-style: italic;
+        line-height: 25px;
+    }
+
+
+
+.field-desc{
+    margin: 3px 0;
+    font-size: 11px;
+    color: #8a8a8a;
+    display: block;
+}
+
+
+
+.item-row{
+    margin-bottom: 15px;
+}
+.item-row:last-child{
+    margin-bottom: 0;
+}
+
+
+.col-title{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+.item-row input[type=text],
+.item-row input[type=search],
+.item-row input[type=tel],
+.item-row input[type=url],
+.item-row input[type=week],
+.item-row input[type=password],
+.item-row input[type=email],
+.item-row select,
+.item-row textarea{
+    width: 100%;
+    padding: 6px;
+    font-size: 13px;
+    color: #444;
+}
+.item-row select{
+    line-height: initial;
+    height: auto;
+}
+
+.ifg-settings input[type=text],
+.ifg-settings input[type=search],
+.ifg-settings input[type=tel],
+.ifg-settings input[type=url],
+.ifg-settings input[type=week],
+.ifg-settings input[type=password],
+.ifg-settings input[type=email],
+.ifg-settings select,
+.ifg-settings textarea{
+    max-width: 300px;
+}
+
+.ifg-shortcode span{
+    background-color: #ffedc1;
+    padding: 5px;
+    font-weight: normal;
+}
+
+
+
+/*------ Module/Widget box ------------------*/
+
+    .metabox,
+    .widget,
+    .module{
+        overflow: hidden;
+        background: #F7F5F5;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-left: 5px solid #ddd;
+        color: #444;
+    }
+
+    .module{
+        color: #757575;
+    }
+
+        .module__title{
+            font-size: 18px;
+            height: 40px;
+            overflow: hidden;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .module__desc{
+            height: 60px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        @media(min-width: 1200px) and (max-width: 1440px){
+            .module__desc{
+                height: 100px;
+            }
+        }
+
+        .module.activated{
+            border-color: #79BE37;
+            background: #fff;
+            color: #444;
+        }
+
+        .module .button:focus {
+            border-color: #79BE37;
+            -webkit-box-shadow: 0 0 3px rgba(121,190,55,0.8);
+            box-shadow: 0 0 3px rgba(121,190,55,0.8);
+        }
+
+
+    .widget{
+        background: #fff;
+        border-width: 1px;
+    }
+        .widget__title{
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .widget h3{
+            font-size: 16px;
+            margin: 0 0 10px;
+        }
+
+
+    .metabox{
+        padding: 10px;
+        background: #f9f9f9;
+        border-width: 1px;
+    }
+        .metabox__title{
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+
+/*------ List ------------------*/
+
+    .list{}
+        .list__head{
+            background: #f9f9f9;
+            font-weight: bold;
+        }
+        .list__head,
+        .list__item{
+            padding: 10px;
+            border-bottom: 1px solid #F0F0F0;
+        }
+        .list__item:last-child{border-bottom: 0;}
+
+
+/*------ Tablist ------------------*/
+
+    .tabs-menu {
+        position: relative;
+        z-index: 100;
+        margin: 0;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        clear: both;
+    }
+        .tabs-menu li {
+            cursor: pointer;
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-bottom: 0;
+            margin: 0;
+            background-color: #f7f7f7;
+            line-height: 30px;
+            padding: 5px 15px;
+        }
+
+        .tabs-menu li.current {
+            position: relative;
+            font-weight: bold;
+            margin-bottom: -1px;
+            border-bottom: 1px solid #fff;
+            background-color: #fff;
+            z-index: 5;
+        }
+
+
+    .tab {
+        width: auto;
+    }
+        .tab-content {
+            /*width: 660px;*/
+            padding: 20px 1px;
+            display: none;
+            overflow: hidden;
+        }
+            .tab-content:first-child{
+                display: block;
+            }
+            .tab-content p{
+                margin: 0 0 20px;
+            }
+
+
+    .tabs-container.leftside .tabs-menu{float: left;max-width: 140px;margin-right: -1px;}
+        .tabs-container.leftside .tabs-menu li{width: 100%;}
+        .tabs-container.leftside .tabs-menu li.current{background: #fff;border-bottom: 1px solid #ccc;border-right: 1px solid #fff;}
+        .tabs-container.leftside .tab-content{background: #fff;border:1px solid #ccc;padding: 15px;}
+
+
+
+
+@media(max-width: 992px){
+    .header__title{
+        /*font-size: 32px;*/
+    }
+
+    .module__desc{
+        height: auto;
+    }
+}
